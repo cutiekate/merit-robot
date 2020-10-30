@@ -1,0 +1,287 @@
+@media screen and (max-width: 1024px) {
+    .header {
+        background-position: 400px -30px;
+    }
+
+    .header__head {
+        font-size: 51px;
+        line-height: 62px;
+        margin-top: 135px;
+        margin-bottom: 70px;
+    }
+
+    .header__text {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .section-1__info p {
+        font-size: 17px;
+    }
+    .section-1__info span {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .item-left:after {
+        width: 360px;
+    }
+    .item-left:before {
+        left: 360px;
+    }
+    .item-right:after {
+        width: 400px;
+    }
+    .section-3__download p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 812px) {
+    
+}
+@media screen and (max-width: 768px) {
+    .nav-link {
+        padding: 6px;
+    }
+
+    .header__logo {
+        margin-top: 36px;
+    }
+
+    .header__head {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 115px;
+        margin-bottom: 35px;
+    }
+    .header {
+        background-position: 210px -5px;
+    }
+
+    .header__button {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .section-1__info p {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .section-1__info span {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .section-2__header {
+        font-size: 43px;
+        margin-bottom: 15px;
+    }
+    .section-2__item p {
+        font-size: 14px;
+    }
+    .section-2 {
+        margin-top: 60px;
+    }
+    .section-3 {
+        margin-top: 60px;
+    }
+    .section-3__header {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .section-3__item {
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ection-3__item-bg,
+    .item-left:after,
+    .item-left:before,
+    .item-right:after,
+    .item-right::before {
+        display: none;
+    }
+    .section-3__item h3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .text-right {
+        text-align: start !important;
+    }
+
+    .section-3__header {
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 736px) {
+    
+}
+
+@media screen and (max-width: 414px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__bg {
+      background: none;
+    }
+
+    .header__head {
+        font-size: 25px;
+        line-height: 42px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .header__logo {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .header__text {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .header {
+        background: none;
+    }
+
+    br {
+        display: none;
+    }
+
+    .header__button {
+        margin: 10px 40px;
+    }
+
+    .section-1__info {
+        min-width: 100%;
+    }
+
+    .section-1__info p {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .section-1__info span {
+        font-size: 30px;
+    }
+    .section-2__header {
+        font-size: 28px;
+        line-height: 46px;
+    }
+    .section-2__desc {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .section-2__item {
+        min-width: 100%;
+    }
+    .section-3__header {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .section-3__item h3 {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .section-3__item p {
+        margin-bottom: 10px;
+    }
+    .section-3 {
+        margin-top: 30px;
+    }
+    
+
+
+
+    
+}
+
+@media screen and (max-width: 375px) {
+    .header__head {
+        font-size: 22px;
+        line-height: 35px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .header__text {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .header__button {
+        margin: 10px 25px;
+    }
+
+    .section-1__info p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .section-2 {
+        margin-top: 40px;
+    }
+    .section-3__header {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .section-3__item h3 {
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .section-3__item p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    
+  
+
+}
+
+@media screen and (max-width: 320px) {
+    .header__head {
+        font-size: 19px;
+    }
+
+    .header__text {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .header__button {
+        margin: 10px 0px;
+        font-size: 14px;
+    }
+    .section-1 {
+        margin-top: 10px;
+    }
+
+    .section-1__info p {
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .section-2__header {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .section-2__desc {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .section-3__header {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+}
