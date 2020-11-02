@@ -34,6 +34,15 @@
     .section-3__download p {
         font-size: 15px;
     }
+    .button-inner1, .button-inner2 {
+        width: 500px;
+    }
+    .button-inner1 {
+        left: 100px;
+    }
+    .tabs-imgs {
+        margin-left: -135px;
+    }
 }
 
 @media screen and (max-width: 812px) {
@@ -113,6 +122,46 @@
 
     .section-3__header {
         margin-bottom: 20px;
+    }
+
+    .section-4__header {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .button-inner1, .button-inner2 {
+        width: 350px;
+        font-size: 14px;
+
+    }
+    .buttons-inner {
+        margin-left: -150px;
+        margin-top: 15px;
+    }
+    .button-inner1 {
+        left: 75px;
+    }
+    .tabs-imgs {
+        margin-left: -95px;
+    }
+    .tabs-img {
+        width: 325px;
+    }
+
+    .tabs-text {
+        margin-top: 65px;
+    }
+
+    .section-5__header {
+        font-size: 36px;
+        line-height: 47px;
+    }
+    .section-5 {
+        margin-top: 550px;
+    }
+
+    .feedback__card {
+        margin-top: 15px;
     }
 
     
@@ -199,7 +248,62 @@
     .section-3 {
         margin-top: 30px;
     }
-    
+    .section-4 {
+        margin-top: 50px;
+    }
+    .section-4__header {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .tab-title {
+        width: 200px;
+        font-size: 12px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .tabs-main {
+        margin-left: 35px;
+        margin-top: 15px;
+    }
+    .button-inner1, .button-inner2 {
+        width: 230px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .buttons-inner {
+        margin-left: -75px;
+        margin-top: 10px;
+    }
+    .button-inner1 {
+        left: 53px;
+    }
+    .tabs-img {
+        display: none;
+    }
+    .tabs-text {
+        min-width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .tabs-text {
+        font-size: 14px;
+    }
+    .tabs-btn {
+        padding: 10px 80px;
+        margin-top: 10px;
+    }
+    .section-5 {
+        margin-top: 380px;
+    }
+    .section-5__header {
+        font-size: 26px;
+        line-height: 41px;
+    }
+    .section-5__desc {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
 
 
 
@@ -243,7 +347,47 @@
         font-size: 14px;
         line-height: 23px;
     }
+    .section-4__header {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .button-inner1, .button-inner2 {
+        width: 180px;
+    }
+    .buttons-inner {
+        margin-left: -40px;
+    }
+
+    .button-inner2 {
+        margin-left: 30px;
+    }
+
+    .tabs-btn {
+        font-size: 14px;
+    }
     
+    .tabs-text {
+        margin-left: 6px;
+    }
+    .section-5__header {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section-5__desc {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .section-5 {
+        margin-top: 355px;
+    }
+    .feedback__card p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .user-name,
+    .update {
+        font-size: 14px;
+    }
   
 
 }
@@ -282,6 +426,33 @@
     .section-3__header {
         font-size: 20px;
         line-height: 28px;
+    }
+    .section-4__header {
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .tab-title {
+        width: 170px;
+        font-size: 11px;
+    }
+    .button-inner1, .button-inner2 {
+        width: 152px;
+        font-size: 8px;
+    }
+
+    .tabs-text h5 {
+        font-size: 15px;
+    }
+    .tabs-btn {
+        font-size: 9px;
+    }
+    .section-5__header {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .section-5__desc {
+        text-align: left;
     }
 
 }

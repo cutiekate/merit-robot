@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/intlTelInput.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/mobile.css">
 </head>
@@ -154,52 +156,98 @@
              <input type="radio" id="tab1" name="tab-group" checked>
              <label for="tab1" class="tab-title tab-title1">ДЛЯ КОМПЬЮТЕРА</label> 
              <section class="tab-content">
-              <div class="tabs">
-                <div class="tab">
-                 <input type="radio" id="tab1-1" name="tab-group" checked>
-                 <label for="tab1-1" class="tab-title">1. УСТАНОВКА РОБОТА </label> 
-                 <section class="tab-content">
-                   <div class="row">
-                     <div class="col-6"></div>
-                     <div class="col-6">
-                       <p class="tabs__text">OlympBot для компьютера работает как браузерное расширение. Это позволяет полностью имитировать действия реального пользователя.</p>
-                       <h5 class="tabs__text"> Список поддерживаемых браузеров:</h5>
-                       <ul>
-                         <li class="tabs__text"> 1) Google Chrome</li>
-                         <li class="tabs__text"> 2) Opera</li>
-                         <li class="tabs__text"> 3) Yandex.Browser</li>
-                         <li class="tabs__text"> 4) FireFox</li>
-                         <li class="tabs__text"> 5) Microsoft Edge</li>
-                         <li class="tabs__text"> 6) CocCoc</li>
-                       </ul>
-                     </div>
-                   </div>
-                 </section>
-                </div> 
-                <div class="tab">
-                 <input type="radio" id="tab1-2" name="tab-group">
-                 <label for="tab1-2" class="tab-title">2. АКТИВАЦИЯ РОБОТА</label> 
-                 <section class="tab-content">Два</section>
+              <div class="buttons-inner">
+                <button class="button-inner1" onclick="openTab('tab-1')">1. УСТАНОВКА РОБОТА </button>
+                <button class="button-inner2" onclick="openTab('tab-2')">2. АКТИВАЦИЯ РОБОТА</button>
+              </div>
+              <div id="tab-1" class="row content">
+                <div class="col-5 tabs-imgs">
+                  <img class="tabs-img" src="img/phone-laptop.png" alt="phone-laptop">
+                  <img class="tabs-img" src="img/phone-laptop.png" alt="phone-laptop">
                 </div>
-               </div>
+                <div class="col-7 tabs-text">
+                  <p>OlympBot для компьютера работает как браузерное расширение. Это позволяет полностью имитировать действия реального пользователя.</p>
+                  <h5> Список поддерживаемых браузеров:</h5>
+                  <ul>
+                    <li> 1) Google Chrome</li>
+                    <li> 2) Opera</li>
+                    <li> 3) Yandex.Browser</li>
+                    <li> 4) FireFox</li>
+                    <li> 5) Microsoft Edge</li>
+                    <li> 6) CocCoc</li>
+                  </ul>
+                  <button class="tabs-btn">УСТАНОВИТЬ MERITBOT</button>
+                </div>
+              </div>
+              
+              <div id="tab-2" class=" row content" style="display:none">
+                <div class="col-5 tabs-imgs">
+                  <img class="tabs-img" src="img/phone-laptop.png" alt="phone-laptop">
+                  <img class="tabs-img" src="img/phone-laptop.png" alt="phone-laptop">
+                </div>
+                <div class="col-7 tabs-text">
+                  <p>OlympBot для компьютера работает как браузерное расширение. Это позволяет полностью имитировать действия реального пользователя.</p>
+                  <h5> Список поддерживаемых браузеров:</h5>
+                  <ul>
+                    <li> 1) Google Chrome</li>
+                    <li> 2) Opera</li>
+                    <li> 3) Yandex.Browser</li>
+                    <li> 4) FireFox</li>
+                    <li> 5) Microsoft Edge</li>
+                    <li> 6) CocCoc</li>
+                  </ul>
+                  <button class="tabs-btn">УСТАНОВИТЬ MERITBOT</button>
+                </div>
+              </div>
              </section>
             </div> 
             <div class="tab">
              <input type="radio" id="tab2" name="tab-group">
              <label for="tab2" class="tab-title tab-title2">ДЛЯ ANDROID</label> 
              <section class="tab-content">
-              <div class="tabs">
-                <div class="tab">
-                 <input type="radio" id="tab2-1" name="tab-group" checked>
-                 <label for="tab2-1" class="tab-title">1. УСТАНОВКА РОБОТА </label> 
-                 <section class="tab-content">Один</section>
-                </div> 
-                <div class="tab">
-                 <input type="radio" id="tab2-2" name="tab-group">
-                 <label for="tab2-2" class="tab-title">2. АКТИВАЦИЯ РОБОТА</label> 
-                 <section class="tab-content">Два</section>
+              <div class="buttons-inner2">
+                <button class="button-inner1" onclick="openTab('tab-3')">1. УСТАНОВКА РОБОТА </button>
+                <button class="button-inner2" onclick="openTab('tab-4')">2. АКТИВАЦИЯ РОБОТА</button>
+              </div>
+              <div id="tab-3" class="row content">
+                <div class="col-5 tabs-imgs">
+                  <img class="tabs-img" src="img/phone-laptop.png" alt="phone-laptop">
+                  <img class="tabs-img" src="img/phone-laptop.png" alt="phone-laptop">
                 </div>
-               </div>
+                <div class="col-7 tabs-text">
+                  <p>OlympBot для компьютера работает как браузерное расширение. Это позволяет полностью имитировать действия реального пользователя.</p>
+                  <h5> Список поддерживаемых браузеров:</h5>
+                  <ul>
+                    <li> 1) Google Chrome</li>
+                    <li> 2) Opera</li>
+                    <li> 3) Yandex.Browser</li>
+                    <li> 4) FireFox</li>
+                    <li> 5) Microsoft Edge</li>
+                    <li> 6) CocCoc</li>
+                  </ul>
+                  <button class="tabs-btn">УСТАНОВИТЬ MERITBOT</button>
+                </div>
+              </div>
+              
+              <div id="tab-4" class=" row content" style="display:none">
+                <div class="col-5 tabs-imgs">
+                  <img class="tabs-img" src="img/phone-laptop.png" alt="phone-laptop">
+                  <img class="tabs-img" src="img/phone-laptop.png" alt="phone-laptop">
+                </div>
+                <div class="col-7 tabs-text">
+                  <p>OlympBot для компьютера работает как браузерное расширение. Это позволяет полностью имитировать действия реального пользователя.</p>
+                  <h5> Список поддерживаемых браузеров:</h5>
+                  <ul>
+                    <li> 1) Google Chrome</li>
+                    <li> 2) Opera</li>
+                    <li> 3) Yandex.Browser</li>
+                    <li> 4) FireFox</li>
+                    <li> 5) Microsoft Edge</li>
+                    <li> 6) CocCoc</li>
+                  </ul>
+                  <button class="tabs-btn">УСТАНОВИТЬ MERITBOT</button>
+                </div>
+              </div>
              </section>
             </div>
            </div>
@@ -208,7 +256,90 @@
       </div>
     </div>
   </section>
-  
+  <section class="section-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="section-5__header">ОТЗЫВЫ ПОЛЬЗОВАТЕЛЕЙ</h2>
+          <p class="section-5__desc">Наша команда долго работала над роботом и будет очень рада,<br>
+            если вы пришлете свой отзыв к нам на почту: support@olympbot.com</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="owl-carousel">
+            <div class="feedback__card">
+              <img src="img/icon-quotes.png" alt="icon-quotes">
+              <p>Я занимаюсь трейдингом уже давно и сейчас работаю с несколькими брокерами. С Мерит Груп комфортнее всего работать. Очень удобный дизайн и невероятно комфортный терминал. Огромный плюс, это информационное обеспечение: свежие новости и интересные статьи в блоге. Очень нравиться брокер и буду дальше с ним сотрудничать.
+              </p>
+              <div class="feedback__card-footer"><span class="user-name">Михаил Карпов</span><span class="update">3 дня назад</span></div>
+            </div>
+            <div class="feedback__card">
+              <img src="img/icon-quotes.png" alt="icon-quotes">
+              <p>Я занимаюсь трейдингом уже давно и сейчас работаю с несколькими брокерами. С Мерит Груп комфортнее всего работать. Очень удобный дизайн и невероятно комфортный терминал. Огромный плюс, это информационное обеспечение: свежие новости и интересные статьи в блоге. Очень нравиться брокер и буду дальше с ним сотрудничать.
+              </p>
+              <div class="feedback__card-footer"><span class="user-name">Михаил Карпов</span><span class="update">3 дня назад</span></div>
+            </div>
+            <div class="feedback__card"> 
+              <img src="img/icon-quotes.png" alt="icon-quotes">
+              <p>Я занимаюсь трейдингом уже давно и сейчас работаю с несколькими брокерами. С Мерит Груп комфортнее всего работать. Очень удобный дизайн и невероятно комфортный терминал. Огромный плюс, это информационное обеспечение: свежие новости и интересные статьи в блоге. Очень нравиться брокер и буду дальше с ним сотрудничать.
+              </p>
+              <div class="feedback__card-footer"><span class="user-name">Михаил Карпов</span><span class="update">3 дня назад</span></div>
+            </div>
+            <div class="feedback__card">
+              <img src="img/icon-quotes.png" alt="icon-quotes">
+              <p>Я занимаюсь трейдингом уже давно и сейчас работаю с несколькими брокерами. С Мерит Груп комфортнее всего работать. Очень удобный дизайн и невероятно комфортный терминал. Огромный плюс, это информационное обеспечение: свежие новости и интересные статьи в блоге. Очень нравиться брокер и буду дальше с ним сотрудничать.
+              </p>
+              <div class="feedback__card-footer"><span class="user-name">Михаил Карпов</span><span class="update">3 дня назад</span></div>
+            </div>
+            <div class="feedback__card"> 
+              <img src="img/icon-quotes.png" alt="icon-quotes">
+              <p>Я занимаюсь трейдингом уже давно и сейчас работаю с несколькими брокерами. С Мерит Груп комфортнее всего работать. Очень удобный дизайн и невероятно комфортный терминал. Огромный плюс, это информационное обеспечение: свежие новости и интересные статьи в блоге. Очень нравиться брокер и буду дальше с ним сотрудничать.
+              </p>
+              <div class="feedback__card-footer"><span class="user-name">Михаил Карпов</span><span class="update">3 дня назад</span></div>
+            </div>
+            <div class="feedback__card"> 
+              <img src="img/icon-quotes.png" alt="icon-quotes">
+              <p>Я занимаюсь трейдингом уже давно и сейчас работаю с несколькими брокерами. С Мерит Груп комфортнее всего работать. Очень удобный дизайн и невероятно комфортный терминал. Огромный плюс, это информационное обеспечение: свежие новости и интересные статьи в блоге. Очень нравиться брокер и буду дальше с ним сотрудничать.
+              </p>
+              <div class="feedback__card-footer"><span class="user-name">Михаил Карпов</span><span class="update">3 дня назад</span></div>
+            </div>
+            <div class="feedback__card">
+              <img src="img/icon-quotes.png" alt="icon-quotes">
+              <p>Я занимаюсь трейдингом уже давно и сейчас работаю с несколькими брокерами. С Мерит Груп комфортнее всего работать. Очень удобный дизайн и невероятно комфортный терминал. Огромный плюс, это информационное обеспечение: свежие новости и интересные статьи в блоге. Очень нравиться брокер и буду дальше с ним сотрудничать.
+              </p>
+              <div class="feedback__card-footer"><span class="user-name">Михаил Карпов</span><span class="update">3 дня назад</span></div>
+            </div>
+            <div class="feedback__card">
+              <img src="img/icon-quotes.png" alt="icon-quotes">
+              <p>Я занимаюсь трейдингом уже давно и сейчас работаю с несколькими брокерами. С Мерит Груп комфортнее всего работать. Очень удобный дизайн и невероятно комфортный терминал. Огромный плюс, это информационное обеспечение: свежие новости и интересные статьи в блоге. Очень нравиться брокер и буду дальше с ним сотрудничать.
+              </p>
+              <div class="feedback__card-footer"><span class="user-name">Михаил Карпов</span><span class="update">3 дня назад</span></div>
+            </div>
+            <div class="feedback__card">
+              <img src="img/icon-quotes.png" alt="icon-quotes">
+              <p>Я занимаюсь трейдингом уже давно и сейчас работаю с несколькими брокерами. С Мерит Груп комфортнее всего работать. Очень удобный дизайн и невероятно комфортный терминал. Огромный плюс, это информационное обеспечение: свежие новости и интересные статьи в блоге. Очень нравиться брокер и буду дальше с ним сотрудничать.
+              </p>
+              <div class="feedback__card-footer"><span class="user-name">Михаил Карпов</span><span class="update">3 дня назад</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-6">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="section-6__header">FAQ: ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
+          <p class="section-6__desc">Ниже приведены наиболее часто встречающиеся<br> вопросы к нашей службе поддрежки.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12"></div>
+      </div>
+    </div>
+  </section>
 
 
   <script src="js/jquery.min.js"></script>
@@ -217,6 +348,7 @@
   <script src="js/wow.min.js"></script>
   <script src="js/intlTelInput.min.js"></script>
   <script src="js/jquery.disableAutoFill.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/send.js"></script>
 </body>

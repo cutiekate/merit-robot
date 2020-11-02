@@ -25,7 +25,7 @@ a:hover {
 ul {
   padding: 0;
 }
-html,body,section{
+html,body{
   overflow-x: hidden;
   background: var(--deep-blue);
 }
@@ -364,6 +364,7 @@ html,body,section{
   padding-bottom: 11px;
   position: relative;
   z-index: 2;
+  cursor: pointer;
  }
  .tab-title2 {
   background: #FFFFFF;
@@ -371,6 +372,7 @@ html,body,section{
   position: relative;
   left: -40px;
   z-index: 1;
+  cursor: pointer;
  } 
  .tab-content {
   position: absolute;
@@ -379,7 +381,6 @@ html,body,section{
  .tab :checked + .tab-title {
   position: relative; 
   background: var(--light-blue); 
-  top: 1px;
   z-index: 2;
   color: #FFFFFF;
  }
@@ -395,6 +396,174 @@ html,body,section{
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+ }
+
+ .button-inner1,
+ .button-inner2 {
+  background: var(--deep-blue);
+  border: 2px solid var(--light-blue);
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 550px;
+  height: 50px;
+  font-family: "Open Sans" ,sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--light-blue);
+ }
+ .button-inner1 {
+  position: relative;
+  left: 35px;
+ }
+
+ .button-inner2 {
+  color: #FFFFFF;
+ }
+
+ .buttons-inner {
+   display: flex;
+   margin-left: -305px;
+   margin-top: 40px;
+ }
+ .buttons-inner2 {
+  display: flex;
+  margin-left: -555px;
+  margin-top: 40px;
+}
+
+ .tabs-img {
+  width: 386px;
+  height: 220px;
+  margin-bottom: 40px;
+ }
+
+ .tabs-imgs {
+  margin-left: -200px;
+  margin-top: 40px;
+ }
+
+ .tabs-text {
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  margin-top: 98px;
+  margin-left: 92px;
+ }
+
+ .tabs-text ul {
+   list-style: none;
+ }
+
+ .tabs-btn {
+  background: var(--light-blue);
+  border-radius: 100px;
+  font-family: "Roboto",sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  border: none;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 21px 19px;
+  margin-top: 40px;
+ }
+
+ .section-5 {
+   margin-top: 600px;
+ }
+
+ .section-5__header {
+  font-family: "Open Sans",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 73px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+ }
+
+ .section-5__desc {
+  font-family: "Roboto" ,sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+ }
+
+ .feedback__card {
+   margin-top: 40px;
+ }
+
+ .feedback__card img {
+  width: 28.6px !important;
+  height: 20px !important;
+  margin-bottom: 20px;
+ }
+
+ .feedback__card p {
+  font-family: "Roboto" ,sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  color: #FFFFFF;
+ }
+
+ .feedback__card-footer {
+   display: flex;
+   gap: 20px;
+   align-items: center;
+ }
+
+ .user-name {
+  font-family: "Roboto" ,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--light-blue);
+ }
+
+ .update {
+  font-family: "Roboto" ,sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.6);
+ }
+
+ .section-6 {
+   margin-top: 100px;
+ }
+
+ .section-6__header {
+  font-family: "Open Sans" ,sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 73px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+ }
+
+ .section-6__desc {
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
   letter-spacing: 0.01em;
   color: #FFFFFF;
  }
