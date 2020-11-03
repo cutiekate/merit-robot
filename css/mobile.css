@@ -164,6 +164,12 @@
         margin-top: 15px;
     }
 
+    .section-6__header {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+
     
 }
 
@@ -303,6 +309,49 @@
         font-size: 16px;
         line-height: 24px;
     }
+    .section-6__header {
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .section-6 {
+        margin-top: 30px;
+    }
+
+    .section-6__desc {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .button-collapse {
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .card-body p {
+        font-size: 12px;
+    }
+
+    .footer__nav {
+        display: none;
+    }
+
+    .footer__logo,
+    .footer__info {
+        min-width: 100%;
+    }
+
+    .footer {
+        margin-top: 40px;
+    }
+
+    .footer__info p,
+    .footer__info a,
+    .footer__rights p,
+    .footer__politics a {
+        font-size: 14px;
+    }
 
 
 
@@ -388,6 +437,16 @@
     .update {
         font-size: 14px;
     }
+
+    .section-6__header {
+        font-size: 19px;
+        line-height: 27px;
+    }
+
+    .btn:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        padding: 0;
+    }
   
 
 }
@@ -453,6 +512,23 @@
     }
     .section-5__desc {
         text-align: left;
+    }
+    .section-6__desc {
+        line-height: 19px;
+        text-align: start;
+    }
+
+    .section-6__header {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .button-collapse {
+        line-height: 25px;
+        text-align: start;
+    }
+
+    .card-header:first-child {
+        padding: 0;
     }
 
 }
