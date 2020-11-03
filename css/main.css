@@ -567,3 +567,123 @@ html,body{
   letter-spacing: 0.01em;
   color: #FFFFFF;
  }
+ .button-collapse {
+  font-family: "Roboto" ,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 27px;
+  color: #FFFFFF;
+ }
+
+ .card-body p {
+  font-family: "Roboto" ,sans-serif;
+  font-size: 15px;
+  line-height: 27px;
+  color: #FFFFFF;
+  position: relative;
+  margin-left: 20px;
+ }
+
+ .card-body p:before {
+   content: '';
+   display: inline-block;
+   position: absolute;
+   border: 1px solid #FFFFFF;
+   transform: rotate(90deg);
+   width: 124px;
+   left: -70px;
+   top: 68px;
+ }
+
+ .collapse-line {
+  border: 1px solid #FFFFFF;
+ }
+
+ .footer {
+   margin-top: 100px;
+ }
+
+ .footer-line {
+  border: 3px solid #FFFFFF;
+  width: 100%;
+ }
+
+ .footer__logo {
+   margin-top: 21px;
+ }
+
+ .footer__nav {
+   display: flex;
+   justify-content: center;
+ }
+
+ .footer-nav {
+   margin-top: 20px;
+   list-style: none;
+ }
+
+ .footer-nav-link {
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+ }
+
+ .footer__info {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin-top: 25px;
+ }
+
+ .footer__info p {
+  font-family: "Roboto" ,sans-serif;
+  font-size: 16px;
+  line-height: 200%;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+ }
+
+ .footer__info a {
+  font-family: "Roboto" ,sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 200%;
+  color: rgba(255, 255, 255, 0.7);
+ }
+
+ .line {
+   margin-top: 22px;
+   width: 100%;
+   border: 1px solid rgba(255, 255, 255, 0.4);
+ }
+
+ .footer__rights {
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 10px;
+ }
+
+ .footer__rights p {
+  font-family: "Open Sans" ,sans-serif;
+  font-size: 16px;
+  line-height: 200%;
+  color: rgba(255, 255, 255, 0.7);
+ }
+
+ .footer__politics {
+   display: flex;
+   justify-content: flex-end;
+   margin-top: 10px;
+
+ }
+
+ .footer__politics a {
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  line-height: 200%;
+  text-decoration-line: underline;
+  color: rgba(255, 255, 255, 0.7);
+ }
