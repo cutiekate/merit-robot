@@ -46,6 +46,9 @@
     .tabs-imgs-android {
         margin-left: -385px;
     }
+    .scroll-panel {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 812px) {
