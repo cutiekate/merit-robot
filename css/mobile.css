@@ -43,6 +43,9 @@
     .tabs-imgs {
         margin-left: -135px;
     }
+    .tabs-imgs-android {
+        margin-left: -385px;
+    }
 }
 
 @media screen and (max-width: 812px) {
@@ -168,6 +171,23 @@
         font-size: 34px;
         line-height: 30px;
     }
+    .buttons-inner2 {
+        display: flex;
+        margin-left: -400px;
+        margin-top: 10px;
+    }
+
+    .tabs-imgs-android {
+        margin-left: -340px;
+        margin-right: -184px;
+    }
+
+    .tabs-text-android {
+        margin-top: 50px;
+        margin-left: 340px;
+    }
+
+  
 
 
     
@@ -353,6 +373,17 @@
         font-size: 14px;
     }
 
+    .buttons-inner2 {
+        display: flex;
+        margin-left: -275px;
+        margin-top: 10px;
+    }
+
+    .tabs-text-android {
+        margin-left: 135px;
+        margin-top: 30px;
+    }
+
 
 
 
@@ -447,8 +478,15 @@
         cursor: pointer;
         padding: 0;
     }
-  
 
+    .buttons-inner2 {
+        margin-left: -240px;
+    }
+
+    .tabs-text-android {
+        margin-left: 142px;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -464,6 +502,10 @@
     .header__button {
         margin: 10px 0px;
         font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 65px;
+        padding-right: 64px;
     }
     .section-1 {
         margin-top: 10px;
@@ -529,6 +571,14 @@
 
     .card-header:first-child {
         padding: 0;
+    }
+    .buttons-inner2 {
+        margin-left: -210px;
+    }
+    .tabs-text-android {
+        margin-left: 210px;
+        margin-top: 30px;
+        margin-right: -115px;
     }
 
 }
