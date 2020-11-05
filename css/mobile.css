@@ -189,11 +189,9 @@
         margin-top: 50px;
         margin-left: 340px;
     }
-
-  
-
-
-    
+    .card-body p:before {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 736px) {
@@ -393,6 +391,10 @@
         margin-top: 0px;
     }
 
+    .accordion-icon {
+        top: 3px;
+    }
+
 
 
 
@@ -497,6 +499,10 @@
         margin-left: 142px;
         margin-top: 30px;
     }
+
+    .accordion-icon {
+        top: -2px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -595,6 +601,9 @@
     }
     .footer-line {
         border: 2px solid #FFFFFF;
+    }
+    .accordion-icon {
+        display: none;
     }
 
 }
