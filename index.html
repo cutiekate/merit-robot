@@ -49,7 +49,7 @@
             <p class="header__text">Робот распространяется бесплатно.<br>
               Вы можете скачать его по ссылке ниже<br>
               и опробовать на Учебном счете.</p>
-            <button class="header__button">СКАЧАТЬ MERITBOT</button>
+            <button class="header__button" data-toggle="modal" data-target="#modal">СКАЧАТЬ MERITBOT</button>
         </div>
 
       </div>
@@ -183,7 +183,7 @@
                     <li> 5) Microsoft Edge</li>
                     <li> 6) CocCoc</li>
                   </ul>
-                  <button class="tabs-btn">УСТАНОВИТЬ MERITBOT</button>
+                  <button class="tabs-btn" data-toggle="modal" data-target="#modal-2">УСТАНОВИТЬ MERITBOT</button>
                 </div>
               </div>
               
@@ -203,7 +203,7 @@
                     <li> 5) Microsoft Edge</li>
                     <li> 6) CocCoc</li>
                   </ul>
-                  <button class="tabs-btn">УСТАНОВИТЬ MERITBOT</button>
+                  <button class="tabs-btn" data-toggle="modal" data-target="#modal-2">УСТАНОВИТЬ MERITBOT</button>
                 </div>
               </div>
              </section>
@@ -232,7 +232,7 @@
                     <li> 5) Microsoft Edge</li>
                     <li> 6) CocCoc</li>
                   </ul>
-                  <button class="tabs-btn">УСТАНОВИТЬ MERITBOT</button>
+                  <button class="tabs-btn" data-toggle="modal" data-target="#modal-2">УСТАНОВИТЬ MERITBOT</button>
                 </div>
               </div>
               
@@ -252,7 +252,7 @@
                     <li> 5) Microsoft Edge</li>
                     <li> 6) CocCoc</li>
                   </ul>
-                  <button class="tabs-btn">УСТАНОВИТЬ MERITBOT</button>
+                  <button class="tabs-btn" data-toggle="modal" data-target="#modal-2">УСТАНОВИТЬ MERITBOT</button>
                 </div>
               </div>
              </section>
@@ -436,6 +436,113 @@
       </div>
     </div>
   </footer>
+
+  <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <form id="form-3" class="form form-modal">
+            <h4 class="modal__header">Заполните форму и получите консультацию</h4>
+            <div class="form-input">
+
+                <input class="form-control form__input form__input--user-img" type="text" id="name-3" placeholder="Ваше имя" required>
+                <span class="msg-help-3 name-span-3" style="display:none;">Укажите имя, что бы мы знали как обращаться к Вам</span>
+
+
+                <input  class="form-control form__input form__input--email-img" type="email" id="mail-3" placeholder="Ваш Email" pattern="^[-._A-Za-z0-9]+@(?:[a-z0-9][-a-z0-9]+\.)+[a-z]{2,6}$" required>
+                <span class="msg-help-3 mail-span-3" style="display:none;">Укажите Ваш реальный Email</span>
+
+
+                <label for="phone-3" id="label-phone-3">
+                    <input  class="form-control form__input form__input--phone-img" type="tel" placeholder="Телефон" id="phone-3" maxlength="16" required>
+                    <span class="msg-help-3 tel-span-3" style="display:none;">Укажите номер в международном формате</span>
+                    <span id="valid-msg-3" class="hide">✓ Отлично</span>
+                    <span id="error-msg-3" class="hide"></span>
+                </label>
+
+              <input type="hidden" id="last_name-3" value=" ">
+              <input type="hidden" id="ip-3" value="<?= $_SERVER['REMOTE_ADDR']; ?>">
+              <input type="hidden" id="country-3" value="">
+              <input type="hidden" id="prefix-3" value="">
+              <input type="hidden" id="lang-3" value="RU">
+              <input type="hidden" id="utm_source-3" value="<?= $_GET['utm_source']; ?>">
+              <input type="hidden" id="utm_medium-3" value="<?=  $_GET['utm_medium']; ?>">
+              <input type="hidden" id="utm_campaign-3" value="<?= $_GET['utm_campaign']; ?>">
+              <input type="hidden" id="utm_term-3" value="<?= $_GET['utm_term'];?>">
+              <input type="hidden" id="utm_content-3" value="<?= $_GET['utm_content']; ?>">
+              <input type="hidden" id="description-3" value="">
+
+            </div>
+            <div class="form-button">
+              <button type="submit" id="button-3" class="sub btn_yellow form__button">
+                <span>Получить консультацию</span>
+              </button>
+              <p class="msg"></p>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <form id="form-2" class="form form-modal">
+            <h4 class="modal__header">Заполните форму и получите консультацию</h4>
+            <div class="form-input">
+
+                <input class="form-control form__input form__input--user-img" type="text" id="name-2" placeholder="Ваше имя" required>
+                <span class="msg-help-2 name-span-2" style="display:none;">Укажите имя, что бы мы знали как обращаться к Вам</span>
+
+
+                <input  class="form-control form__input form__input--email-img" type="email" id="mail-2" placeholder="Ваш Email" pattern="^[-._A-Za-z0-9]+@(?:[a-z0-9][-a-z0-9]+\.)+[a-z]{2,6}$" required>
+                <span class="msg-help-2 mail-span-2" style="display:none;">Укажите Ваш реальный Email</span>
+
+
+                <label for="phone-2" id="label-phone-2">
+                    <input  class="form-control form__input form__input--phone-img" type="tel" placeholder="Телефон" id="phone-2" maxlength="16" required>
+                    <span class="msg-help-2 tel-span-2" style="display:none;">Укажите номер в международном формате</span>
+                    <span id="valid-msg-2" class="hide">✓ Отлично</span>
+                    <span id="error-msg-2" class="hide"></span>
+                </label>
+
+              <input type="hidden" id="last_name-2" value=" ">
+              <input type="hidden" id="ip-2" value="<?= $_SERVER['REMOTE_ADDR']; ?>">
+              <input type="hidden" id="country-2" value="">
+              <input type="hidden" id="prefix-2" value="">
+              <input type="hidden" id="lang-2" value="RU">
+              <input type="hidden" id="utm_source-2" value="<?= $_GET['utm_source']; ?>">
+              <input type="hidden" id="utm_medium-2" value="<?=  $_GET['utm_medium']; ?>">
+              <input type="hidden" id="utm_campaign-2" value="<?= $_GET['utm_campaign']; ?>">
+              <input type="hidden" id="utm_term-2" value="<?= $_GET['utm_term'];?>">
+              <input type="hidden" id="utm_content-2" value="<?= $_GET['utm_content']; ?>">
+              <input type="hidden" id="description-2" value="">
+
+            </div>
+            <div class="form-button">
+              <button type="submit" id="button-2" class="sub btn_yellow form__button">
+                <span>Получить консультацию</span>
+              </button>
+              <p class="msg"></p>
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
 
 
   <script src="js/jquery.min.js"></script>

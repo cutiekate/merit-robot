@@ -791,3 +791,135 @@ html,body{
    top: 25px;
    left: 50px;
  }
+
+ .iti{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.iti__country-list {
+  max-width: 250px;
+  overflow-x: hidden;
+  
+}
+.iti__country-list{
+  max-width: 400px;
+  top: 60px;
+}
+#phone-1,
+#phone-2,
+#phone-3{
+  padding-left: 50px;
+}
+.iti--allow-dropdown .iti__flag-container {
+  left: 0px;
+}
+label{
+  position: relative;
+  width: 100%;
+  margin-bottom: 0px;
+}
+#error-msg-1, 
+#valid-msg-1,
+#error-msg-2, 
+#valid-msg-2,
+#error-msg-3, 
+#valid-msg-3{
+  position: absolute;
+  right: 10px;
+  top: 27px;
+  font-size: 12px;
+  color: #195B84;
+}
+#error-msg-1,
+#error-msg-2,
+#error-msg-3 {
+  color: #195B84;
+}
+#valid-msg-1,
+#valid-msg-2,
+#valid-msg-3 {
+  color: #00C900;
+}
+
+.hide {
+  display: none;
+}
+
+.msg-help-1,
+.msg-help-2,
+.msg-help-3{
+  font-size: 14px;
+  position: relative;
+  top: -10px;
+  text-align: center;
+  color: var(--main);
+}  
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 463px;
+  height: 500px;
+}
+
+
+.form h4 {
+  font-family: "Open Sans",sans-serif;
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--deep-blue);
+  padding-top: 0px;
+  padding-bottom: 18px;
+}
+
+.form label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form__input {
+  background: #FFFFFF;
+  box-shadow: -10px 10px 40px rgba(67, 67, 67, 0.1);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-left: 45px;
+  width: 366px;
+  height: 70px;
+}
+
+.form-control{
+  margin-bottom: 15px;
+}
+
+.form__input::placeholder {
+  font-family: "Roboto",sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #CCCCCC;
+}
+
+.form__input:last-child::placeholder {
+  padding-left: 0;
+}
+
+.form__button {
+  width: 366px;
+  height: 70px;
+  background: var(--light-blue);
+  font-family:"Roboto",sans-serif;
+  font-size: 20px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  padding: 21px 27px;
+  transition: 0.4s;
+}
+button span img{
+  width: 20px;
+  height: 20px;
+}

@@ -24,7 +24,7 @@ $(document).ready(function () {
         $('.tel-span-1').css('display', 'inline');
     });
     $('#phone-2').on('click', function() {
-        var countryData = iti.getSelectedCountryData().dialCode;
+        var countryData = iti2.getSelectedCountryData().dialCode;
         $('#prefix-2').val(countryData);
         if($('#phone-2').val()==""){
             $(this).val("+"+countryData);
@@ -36,7 +36,7 @@ $(document).ready(function () {
         $('.tel-span-2').css('display', 'inline');
     });
     $('#phone-3').on('click', function() {
-        var countryData = iti.getSelectedCountryData().dialCode;
+        var countryData = iti3.getSelectedCountryData().dialCode;
         $('#prefix-3').val(countryData);
         if($('#phone-3').val()==""){
             $(this).val("+"+countryData);
@@ -78,18 +78,6 @@ $(document).ready(function () {
         validMsg2 = document.querySelector("#valid-msg-2"),
         validMsg3 = document.querySelector("#valid-msg-3"),
         errorMap = ["Ошибка в номере", "Неправильный код страны", "Продолжайте ввод...", "Слишком много символов", "Продолжайте ввод..."],
-        iti = window.intlTelInput(input, {
-            initialCountry: "auto",
-            defaultCountry: 'auto',
-            nationalMode: false,
-            geoIpLookup: function(success, failure) {
-                $.get("https://ipinfo.io?token=a1676089e9b822", function() {}, "jsonp").always(function(resp) {
-                    var countryCode = (resp && resp.country) ? resp.country : "";
-                    success(countryCode);
-                });
-            },
-            utilsScript: "../js/utils.js"
-        }),
         iti2 = window.intlTelInput(input2, {
             initialCountry: "auto",
             defaultCountry: 'auto',
@@ -118,12 +106,8 @@ $(document).ready(function () {
         btn = $('button.sub');
 
         var reset = function() {
-            input.classList.remove("error");
             input2.classList.remove("error");
             input3.classList.remove("error");
-            errorMsg.innerHTML = "";
-            errorMsg.classList.add("hide");
-            validMsg.classList.add("hide");
             errorMsg2.classList.add("hide");
             validMsg2.classList.add("hide");
             errorMsg3.classList.add("hide");

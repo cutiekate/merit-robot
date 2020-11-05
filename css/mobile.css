@@ -394,11 +394,15 @@
     .accordion-icon {
         top: 3px;
     }
-
-
-
-
-    
+    .form {
+        width: 366px;
+        height: 428px;
+    }
+    .form h4 {
+        font-size: 22px;
+        line-height: 25px;
+        padding-bottom: 6px;
+    }  
 }
 
 @media screen and (max-width: 375px) {
@@ -503,6 +507,15 @@
     .accordion-icon {
         top: -2px;
     }
+    .form {
+        width: 324px;
+        height: 428px;
+    }
+    .form__input,
+    .form__button {
+        width: 330px;
+        height: 60px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -604,6 +617,14 @@
     }
     .accordion-icon {
         display: none;
+    }
+    .form {
+        width: 270px;
+        height: 360px;
+    }
+    .form__input, .form__button {
+        width: 280px;
+        height: 60px;
     }
 
 }
